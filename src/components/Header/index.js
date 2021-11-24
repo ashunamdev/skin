@@ -52,7 +52,7 @@ const Header = () => {
                 >
                   Gallery
                 </NavLink> </li>
-                <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active">Blog</NavLink></li>
+                {/* <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active">Blog</NavLink></li> */}
                 <li>  <NavLink
                   to="/contact"
                   className="nav-link"
@@ -60,15 +60,15 @@ const Header = () => {
                 >
                   Contact Us
                 </NavLink></li>
-                <li className="nav-link">
-                 {/* <NavLink
+                {/* <li className="nav-link">
+                 <NavLink
                   to="/gallery"
                   className="nav-link"
                   activeClassName="active"
-                > */}
+                >
                   Login as Admin
-                {/* </NavLink> */}
-                 </li>
+                </NavLink>
+                 </li> */}
                 <li><NavLink to="/appointment">
                   <Button className="appointBtn">Book Appointment</Button>
                 </NavLink></li>

@@ -21,8 +21,9 @@ function Footer() {
               // className="mb-4"
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
-              facilisi quis risus egestas ipsum.
+              Skin Square clinic is a state-of-the-art Dermatology, Aesthetics
+              and Hair Transplantation clinic in Guwahati, Assam bringing
+              advanced skin care to the entire North- East India.
             </p>
             <div className="text-left">
               <ul className="list-unstyled list-inline">
@@ -66,6 +67,11 @@ function Footer() {
                 About
               </Link>
             </p>
+            <p>
+              <Link to="/services" onClick={() => scrollHandler()}>
+                Services
+              </Link>
+            </p>
             {/* <p>
               <Link to="/testimonials">Testimonials</Link>
             </p> */}
@@ -75,10 +81,15 @@ function Footer() {
               </Link>
             </p>
             <p>
+              <Link to="/appointment" onClick={() => scrollHandler()}>
+                Book Appointment
+              </Link>
+            </p>
+            {/* <p>
               <Link to="/blogs" onClick={() => scrollHandler()}>
                 Blog
               </Link>
-            </p>
+            </p> */}
           </Col>
 
           <hr className="w-100 clearfix d-md-none" />
@@ -86,13 +97,15 @@ function Footer() {
           <Col md={3} lg={3} xl={3} className="mx-auto mt-3">
             <h5 className="mt-4 mb-4 font-weight-bold">Contact</h5>
             <p className="pr-5">
-            <p>
-              Skin Square Clinic DD Tower, 2nd floor, Mahatma Gandhi Path,
-              Ganeshguri, Guwahati, Assam 781005
+              <p>
+                Skin Square Clinic DD Tower, 2nd floor, Mahatma Gandhi Path,
+                Ganeshguri, Guwahati, Assam 781005
               </p>
-              <a href="https://goo.gl/maps/xEmiuquTdW3BuGHe7">https://goo.gl/maps/xEmiuquTdW3BuGHe7</a>
+              {/* <a href="https://goo.gl/maps/xEmiuquTdW3BuGHe7">
+                https://goo.gl/maps/xEmiuquTdW3BuGHe7
+              </a> */}
             </p>
-           
+
             <p>+91 6901625075</p>
             <p>skinsquare@gmail.com</p>
           </Col>
