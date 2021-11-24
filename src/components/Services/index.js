@@ -14,33 +14,145 @@ function Services() {
         </div>
         <div className="mt-5 mb-5">
           <Row className="g-3">
-            {Array.from({ length: 6 }).map((_, idx) => (
-              <Col lg={4}>
-                <Card
-                  style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}
+            {/* {Array.from({ length: 6 }).map((_, idx) => ( */}
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
                 >
-                  <Card.Img variant="top" src={ServicesLogo} />
-                  <NavLink
-                    to="/services/service-details"
-                    className="nav-link"
-                    activeClassName="active"
-                  >
-                    <Card.Body style={{ color: "#000" }}>
-                      <Card.Title classNam="form-label">HAIR FALL</Card.Title>
-                      <Card.Text>
-                        Skin Square clinic has a team of expert trichologists
-                        which treats all causes of hair fall. We offer the most
-                        advanced and evidence-based therapies
-                      </Card.Text>
-                      <Card.Text className="font-weight-bold">
-                        Read More{" "}
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                      </Card.Text>
-                    </Card.Body>
-                  </NavLink>
-                </Card>
-              </Col>
-            ))}
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">HAIR FALL</Card.Title>
+                    <Card.Text>
+                      Skin Square clinic has a team of expert trichologists
+                      which treats all causes of hair fall. We offer the most
+                      advanced and evidence-based therapies
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">HAIR FALL</Card.Title>
+                    <Card.Text>
+                      Skin Square clinic has a team of expert trichologists
+                      which treats all causes of hair fall. We offer the most
+                      advanced and evidence-based therapies
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">ACNE</Card.Title>
+                    <Card.Text>
+                      At Skin Square, we practice different modalities including
+                      systemic and topical medications, peels and lasers for
+                      effective treatment of acne
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">PIGMENTATION</Card.Title>
+                    <Card.Text>
+                      Pigmentation treatment includes accurate diagnosis and
+                      advanced treatment modalities.
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">ACNE SCARS </Card.Title>
+                    <Card.Text>
+                      We have various chemical peels, lasers and acne scar
+                      surgeries including subcision, scar excision, Taylor’s
+                      subcision, fat grafting etc. for promising results.
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            <Col lg={4}>
+              <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
+                <Card.Img variant="top" src={ServicesLogo} />
+                <NavLink
+                  to="/services/service-details"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <Card.Body style={{ color: "#000" }}>
+                    <Card.Title classNam="form-label">LASERS</Card.Title>
+                    <Card.Text>
+                      Skin square hosts a wide range of aesthetic procedures
+                      with best in class lasers for hair removal, pigmentation ,
+                      tatooes and scars including acne scars.....
+                    </Card.Text>
+                    <Card.Text className="font-weight-bold">
+                      Read More{" "}
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </Card.Text>
+                  </Card.Body>
+                </NavLink>
+              </Card>
+            </Col>
+            {/* ))} */}
           </Row>
         </div>
         {/* <div className="mt-5 mb-5">
