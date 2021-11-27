@@ -7,6 +7,7 @@ import Logo from "../Images/skin-square.svg";
 function Footer() {
   const scrollHandler = () => {
     window.scroll(0, 0);
+    console.log("scrolled")
   };
   return (
     <>
@@ -72,9 +73,9 @@ function Footer() {
                 Services
               </Link>
             </p>
-            {/* <p>
-              <Link to="/testimonials">Testimonials</Link>
-            </p> */}
+            <p>
+              <Link to="/testimonials" onClick={() => scrollHandler()}>Testimonials</Link>
+            </p>
             <p>
               <Link to="/gallery" onClick={() => scrollHandler()}>
                 Gallery
@@ -85,11 +86,11 @@ function Footer() {
                 Book Appointment
               </Link>
             </p>
-            {/* <p>
+            <p>
               <Link to="/blogs" onClick={() => scrollHandler()}>
                 Blog
               </Link>
-            </p> */}
+            </p>
           </Col>
 
           <hr className="w-100 clearfix d-md-none" />

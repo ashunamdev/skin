@@ -15,7 +15,7 @@ function Services() {
         <div className="mt-5 mb-5">
           <Row className="g-3">
             {/* {Array.from({ length: 6 }).map((_, idx) => ( */}
-            <Col lg={4}>
+            {/* <Col lg={4}>
               <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
                 <Card.Img variant="top" src={ServicesLogo} />
                 <NavLink
@@ -37,7 +37,7 @@ function Services() {
                   </Card.Body>
                 </NavLink>
               </Card>
-            </Col>
+            </Col> */}
             <Col lg={4}>
               <Card style={{ boxShadow: "0px 23px 53px rgba(0, 0, 0, 0.12)" }}>
                 <Card.Img variant="top" src={ServicesLogo} />

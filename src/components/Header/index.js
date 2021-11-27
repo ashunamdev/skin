@@ -38,13 +38,13 @@ const Header = () => {
                 >
                   Services
                 </NavLink></li>
-                {/* <li><NavLink
+                <li><NavLink
                   to="/testimonials"
                   className="nav-link"
                   activeClassName="active"
                 >
                   Testimonials
-                </NavLink></li> */}
+                </NavLink></li>
                 <li> <NavLink
                   to="/gallery"
                   className="nav-link"
@@ -52,7 +52,7 @@ const Header = () => {
                 >
                   Gallery
                 </NavLink> </li>
-                {/* <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active">Blog</NavLink></li> */}
+                <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active">Blog</NavLink></li>
                 <li>  <NavLink
                   to="/contact"
                   className="nav-link"
