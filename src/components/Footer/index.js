@@ -7,7 +7,7 @@ import Logo from "../Images/skin-square.svg";
 function Footer() {
   const scrollHandler = () => {
     window.scroll(0, 0);
-    console.log("scrolled")
+    
   };
   return (
     <>

@@ -6,6 +6,10 @@ import "./header.css";
 import Logo from "../Images/skin-square.svg";
 
 const Header = () => {
+  const scrollHandler = () => {
+    window.scroll(0, 0);
+    
+  };
   return (
     <>
       <div className="wrapper">
@@ -25,7 +29,7 @@ const Header = () => {
             </Navbar.Brand>
             <ul className="links">
               <Nav className="w-100  " /*justify*/>
-                <li> <NavLink to="/home" className="nav-link" activeClassName="active">
+                <li> <NavLink to="/home" className="nav-link" activeClassName="active" onClick={() => scrollHandler()}>
                   Home
                 </NavLink></li>
                 <li> <NavLink to="/about" className="nav-link" activeClassName="active">
@@ -35,6 +39,7 @@ const Header = () => {
                   to="/services"
                   className="nav-link"
                   activeClassName="active"
+                  onClick={() => scrollHandler()}
                 >
                   Services
                 </NavLink></li>
@@ -42,6 +47,7 @@ const Header = () => {
                   to="/testimonials"
                   className="nav-link"
                   activeClassName="active"
+                  onClick={() => scrollHandler()}
                 >
                   Testimonials
                 </NavLink></li>
@@ -49,10 +55,11 @@ const Header = () => {
                   to="/gallery"
                   className="nav-link"
                   activeClassName="active"
+                  onClick={() => scrollHandler()}
                 >
                   Gallery
                 </NavLink> </li>
-                <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active">Blog</NavLink></li>
+                <li>  <NavLink to="/blogs" className="nav-link" activeClassName="active" onClick={() => scrollHandler()}>Blog</NavLink></li>
                 <li>  <NavLink
                   to="/contact"
                   className="nav-link"
@@ -69,7 +76,7 @@ const Header = () => {
                   Login as Admin
                 </NavLink>
                  </li> */}
-                <li><NavLink to="/appointment">
+                <li><NavLink to="/appointment" onClick={() => scrollHandler()}>
                   <Button className="appointBtn">Book Appointment</Button>
                 </NavLink></li>
               </Nav>
