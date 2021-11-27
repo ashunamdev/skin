@@ -32,7 +32,7 @@ const Header = () => {
                 <li> <NavLink to="/home" className="nav-link" activeClassName="active" onClick={() => scrollHandler()}>
                   Home
                 </NavLink></li>
-                <li> <NavLink to="/about" className="nav-link" activeClassName="active">
+                <li> <NavLink to="/about" className="nav-link" activeClassName="active" onClick={() => scrollHandler()} >
                   About
                 </NavLink></li>
                 <li> <NavLink
